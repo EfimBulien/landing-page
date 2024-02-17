@@ -36,7 +36,7 @@ header {
 }
 
 nav {
-    margin-right: 4rem
+    margin-right: 4rem;
 }
 
 nav ul {
@@ -47,8 +47,11 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 10rem;
+    margin-right: 2rem;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
 }
 
 nav ul li a {
@@ -90,11 +93,12 @@ nav ul li a:hover {
 .image{
     display: flex;
     justify-content: center; 
-    align-items: center; ;
+    align-items: center; 
 }
 
 .welcome {
-    text-align: center;
+    display: flexbox;
+    align-items: center;
     padding: 4rem 0;
     background-color: rgba(255, 255, 255, 0.8); 
 }
